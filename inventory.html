@@ -1,0 +1,108 @@
+<!-- Yessica Quezada, IS-117-004, Spring 2021 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yessica's Website</title>
+    <link rel="shortcut icon" href="images/Logo.png">
+    <link rel="stylesheet"
+          href="bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="css/popular%20items.css" rel="stylesheet">
+</head>
+
+<header>
+    <div class="row">
+        <div class="logo-row">
+            <a href="index.html"><img src="images/logo2.PNG" alt="logo"></a>
+        </div>
+    </div>
+</header>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><img src="images/Logo.png" alt="Second Logo"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="promotions.html">Promotions</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown">
+                            Inventory
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="inventory.html">Popular Items</a>
+                            <a class="dropdown-item" href="cellular.html">Cellular Devices</a>
+                            <a class="dropdown-item" href="accessories.html">Accessories</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="extra%20services.html">Extra Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <h1 style="text-align: center">Most Sold Items</h1>
+    <div class="row">
+        <div class="card" style="height: 50%;">
+            <img class="card-img-top" src="accessories/AirPods%20Gen%201.jpg" alt="AP">
+            <p class="card-text">The airpods that we have in stock is Gen 1. Price is not available online.
+            Both stores do have these in stock!</p>
+        </div>
+
+        <div class="card">
+            <img class="card-img-top" src="cellular/iPhone%2012.png" alt="IP">
+            <p class="card-text">The recent phone from Apple is the most sold phone in our Newark Located store.
+            Our payment plans varies for each of our customers.</p>
+        </div>
+
+        <div class="card"  style="height: 60%;">
+            <img class="card-img-top" src="accessories/JBL%20Speaker.jpg" alt="JBL">
+            <p class="card-text">In our stores, speakers are the most sold items. Especially the JBL, there's different
+            sizes and brands. Price range changes depending on size and model.</p>
+        </div>
+    </div>
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Yessica Quezada, 2021 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script src="jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>

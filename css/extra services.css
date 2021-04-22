@@ -1,0 +1,101 @@
+/* Yessica Quezada, IS-117-004, Spring 2021 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: ghostwhite;
+    text-align: center;
+    padding: 10px;
+    font-size: .75rem;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 99%;
+    height: 50%;
+    max-width: 1080px;
+    margin: 0 auto 40px auto;
+    background-color: orange;
+    border: black 2px solid;
+}
+
+.logo-row {
+    margin: auto;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.nav-item {
+    margin: 0 4.0625em;
+}
+
+header img {
+    margin: 0 0 10px 0;
+}
+
+
+form {
+    margin: 0 auto;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+.jumbotron {
+    margin: 10px
+}
+
+.nav-item {
+    margin: 0 4.0625em;
+}
+
+.build img {
+    margin: 50px 100px 50px 0;
+    border: black solid 1px;
+    float:left;
+}
+
+.build-text {
+    display: inline-block;
+    margin: 60px 0 50px 0;
+}
+
+.carousel {
+    margin: 25px 0 0 0;
+}
+
+header img {
+    margin: 0 0 10px 0;
+}
+
+.build img {
+    transition: transform .2s;
+}
+
+.build img:hover {
+    transform: scale(1.15);
+}
+
+.build img {
+    transition: transform .2s;
+}
+
+.build img:hover {
+    transform: scale(1.15);
+}
